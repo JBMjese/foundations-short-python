@@ -25,7 +25,7 @@ for i in range(5):
 #tupla_instancia = tuple()
 tupla_instancia: Tuple[str] = tuple()
 
-mi_string = "bonito"
+mi_string: str = "bonito"
 
 for char in mi_string:
     tupla_instancia += (char,)
@@ -37,5 +37,3 @@ mi_tupla: Tuple[int] = (42,)
 
 for num in mi_tupla:
     print(num)    
-
-    

@@ -6,3 +6,4 @@ frutas: Tuple[str] = ('manzana', 'banana', 'cereza')
 for fruta in frutas:
    if fruta != 'manzana':
      print(fruta)
+     
