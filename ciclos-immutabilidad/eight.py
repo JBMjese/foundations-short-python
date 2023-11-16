@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
-mi_tupla = (1, 2, 3)
+from typing import Tuple
+mi_tupla: Tuple[int] = (1, 2, 3)
 sub_tupla = mi_tupla[1:4]
 
 partes = ((), mi_tupla)
