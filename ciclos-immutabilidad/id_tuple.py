@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 from typing import Tuple
-tupla_original = (1, 2, 3)
+tupla_original: Tuple[int] = (1, 2, 3)
 
 nueva_tupla = ()
 for elemento in tupla_original:
